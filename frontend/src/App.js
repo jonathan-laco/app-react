@@ -7,13 +7,15 @@ import { toast, ToastContainer } from 'react-toastify'
 import 'react-toastify/dist/ReactToastify.css'
 import axios from 'axios'
 
+
+
 const Container = styled.div`
   width: 100%;
   max-width:800px;
   margin-top: 20px;
   display: flex;
   flex-direction: column;
-  align-tems: center;
+  align-items: center;
   gap: 10px;
 `;
 const Title = styled.h2``
@@ -44,7 +46,10 @@ function App() {
       </Container>
       <ToastContainer autoClose={3000} />
       <GlobalStyle />
+      <footer>Desenvolvido por Jonathan Laco</footer>
+
     </div>
+
   );
 }
 
